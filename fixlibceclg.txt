@@ -1,3 +1,4 @@
+diff --git a/packages/devel/libcec/patches/01_libcec_fix_LG.patch b/packages/devel/libcec/patches/01_libcec_fix_LG.patch
 --- a/packages/devel/libcec/patches/01_libcec_fix_LG.patch
 +++ b/packages/devel/libcec/patches/01_libcec_fix_LG.patch
 @@ -0,0 +1,12 @@
