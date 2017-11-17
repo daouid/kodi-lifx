@@ -1,6 +1,6 @@
 ---
- packages/devel/libcec/patches/01_libcec_fix_LG.patch | 12 ++++++++++++
- 1 file changed, 12 insertions(+)
+ packages/devel/libcec/patches/01_libcec_fix_LG.patch | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
  create mode 100644 packages/devel/libcec/patches/01_libcec_fix_LG.patch
  
 diff --git a/packages/devel/libcec/patches/01_libcec_fix_LG.patch
@@ -9,7 +9,7 @@ new file mode 100644
 index 0000000..281f4c7
 --- dev/null
 +++ b/packages/devel/libcec/patches/01_libcec_fix_LG.patch
-@@ -0,0 +1,12 @@
+@@ -0,0 +1,13 @@
 +diff --git a/src/libcec/implementations/SLCommandHandler.cpp b/src/libcec/implementations/SLCommandHandler.cpp
 +index 37c733b..2cb42bb 100644
 +--- a/src/libcec/implementations/SLCommandHandler.cpp   2017-11-15 20:44:01.366277123 +0100
